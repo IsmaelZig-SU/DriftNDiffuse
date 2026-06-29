@@ -45,7 +45,7 @@ if __name__ == "__main__":
     #Directory Params ARGS
     parser.add_argument('--exp_dir',         type = str, default = "D:/model_SDE/Trained_Models/",   help = "Directory for the Experiment") #D:/model_SDE/
     parser.add_argument('--load_exp_name',   type = str, default = "",   help = "Name of the experiment to be loaded")
-    parser.add_argument('--data_dir',        type = str, default = "D:/data/Kolmogorov_SDE/kolmo_120s_10traj_90.npy", help = "Directory for the Data") #kolmo_120s_10traj_90, KS_10_ens_nu0.8_512
+    parser.add_argument('--data_dir',        type = str, default = "D:/data/Kolmogorov_SDE/KS_10_ens_nu0.8_512.npy", help = "Directory for the Data") #kolmo_120s_10traj_90, KS_10_ens_nu0.8_512
     parser.add_argument('--nsave',           type = int,   default = 500, help = "save every nsave number of epochs")
     parser.add_argument('--no_save_model',   action = 'store_false',     help = "doesn't save model")
     parser.add_argument('--info',            type = str, default = "fs",  help = "extra infomration to be added to the experiment name")
