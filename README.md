@@ -31,6 +31,6 @@ The baseline **Kuramoto-Sivashinsky** benchmark dataset along with our fully pre
 Ensure you have an active Python environment (Python >= 3.10 recommended). Clone the repository and install the optimized minimal dependencies layout:
 
 ```bash
-git clone [https://github.com/IsmaelZig-SU/DriftNDiffuse.git](https://github.com/IsmaelZig-SU/DriftNDiffuse.git)
+git clonehttps://github.com/IsmaelZig-SU/DriftNDiffuse.git
 cd DriftNDiffuse
 pip install -r requirements.txt
