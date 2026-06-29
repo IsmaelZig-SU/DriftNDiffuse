@@ -16,7 +16,7 @@ if __name__ == "__main__":
 
     #Models
     parser.add_argument('--seq_model',  type = str, default = "TransformerModel",  help = "Sequence model to be used for the training")
-    parser.add_argument('--AE_Model',   type = str, default = "CVAE", help = "Autoencoder model to be used for the training")
+    parser.add_argument('--AE_Model',   type = str, default = "AE", help = "Autoencoder model to be used for the training")
 
     #training Params ARGS
     parser.add_argument('--lr',      type = float, default=5e-5)
